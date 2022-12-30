@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  app:
+    build: ./micro-videos
+    container_name: fullcycle-micro-videos
+    volumes:
+      - ./micro-videos:/home/node/app
